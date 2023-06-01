@@ -1,0 +1,90 @@
+
+/* .testi__cards{
+    display: flex;
+    margin: 5rem;
+    padding: 50px;
+    gap: 2rem;
+    overflow: hidden;
+    animation: slide 10s infinte Linear;
+}
+.testi__id{
+    display: flex;
+    gap: 1rem;
+} */
+.testi__id img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+.testi__card{
+    background: var(--color-light);
+    border-radius: 9px;
+    padding: 0.4rem;
+    width: 400px;
+    box-shadow: 5px 15px 25px rgba(0,0,0,0.3);
+}
+@keyframes slide{
+    0% { transform: translateX(0);}
+    25% { transform: translateX(0);}
+    30% { transform: translateX(-100%);}
+    50% { transform: translateX(-100%);}
+    55% { transform: translateX(-200%);}
+    75% { transform: translateX(-200%);}
+    80% { transform: translateX(-300%);}
+    100% { transform: translateX(-300%);}
+}
+/* .testi__card:nth-child(even){
+    background: var(--primary-hue);
+} */
+
+
+/* MEDIA QUERIES (phones) */
+/* @media screen and (max-width: 600px) {
+    .testi__cards{
+    display: flex;
+    margin: 1rem;
+    padding: 1px;
+    gap: 0.3rem;
+    overflow: hidden;
+    animation: slide 10s infinte Linear;
+    }
+    .testi__card{
+        background: var(--color-light);
+        display: flex;
+        border-radius: 9px;
+        padding: 0.4rem;
+        width: 900px;
+        overflow: hidden;
+        box-shadow: 5px 15px 25px rgba(0,0,0,0.3);
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .testi__cards{
+        display: block;
+        /* border: 1px solid brown; */
+        width: 80%;
+        margin: 1rem 10%;
+        /* padding: 20px; */
+        /* gap: 2rem; */
+        overflow: hidden;
+        /* animation: slide 10s infinte Linear; */
+    }
+    .testi__id{
+        display: flex;
+        gap: 1rem;
+    }
+    .testi__id img{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 10px;
+    }
+    .testi__card{
+        width: 100%;
+        /* border: 1px solid blue; */
+        margin-bottom: 2rem;
+        background: var(--color-light);
+        border-radius: 9px;
+        box-shadow: 5px 15px 25px rgba(0,0,0,0.3);
+    }
+}

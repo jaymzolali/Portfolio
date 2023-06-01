@@ -1,0 +1,33 @@
+/* .dialogue__box{
+    background: var(--color-white);
+    opacity: 2;
+    z-index: 111;
+}
+
+.dialogue__area{
+    background: var(--color-dark);
+    display: flex;
+    justify-content: center;
+}
+
+.dialogue__colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.dialogue__colors .blue{
+    background: blue;
+    border-radius: 50%;
+}
+.dialogue__colors .red{
+    background: red;
+    border-radius: 50%;
+}
+.dialogue__colors .green{
+    background: green;
+    border-radius: 50%;
+}
+.dialogue__colors .yellow{
+    background: yellow;
+    border-radius: 50%;
+} */

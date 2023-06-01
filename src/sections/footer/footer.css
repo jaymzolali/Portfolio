@@ -1,0 +1,25 @@
+.sec{
+    width: 100vw;
+    /* height: 5rem; */
+    place-items: center;
+    background: var(--color-primary);
+    box-shadow: 0 1rem 1.5em hsla(var(--primary-hue), 68%, 42%, 20%);
+    transition: var(--transition);
+}
+.nav{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    color: var(--color-white);
+}
+/* .nav p a{
+    min-width: 5rem;
+} */
+@media screen and (max-width: 800px) {
+    .nav{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        color: var(--color-white);
+    }
+}

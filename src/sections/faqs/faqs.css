@@ -1,0 +1,32 @@
+.questions{
+    display: grid;
+    width: 100%;
+    margin: 0 10%;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    /* background: red; */
+}
+.one, .two, .three, .four, .five, .six{
+    background: white;
+    border-radius: 14px;
+    padding: 1rem;
+    width: 27rem;
+}
+
+@media screen and (max-width: 800px) {
+    .questions{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 10%;
+        /* gap: 2rem; */
+        /* grid-template-columns: 1fr 1fr; */
+        /* background: red; */
+    }
+    .one, .two, .three, .four, .five, .six{
+        background: white;
+        border-radius: 14px;
+        padding: 1rem;
+        width: 80%;
+    }
+}
